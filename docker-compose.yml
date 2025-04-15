@@ -10,7 +10,7 @@ services:
     security_opt:
       - apparmor:unconfined
     ports:
-      - 2000:20000
+      - 20000:20000
     volumes:
       - /proc:/host/proc:ro
       - /sys:/host/sys:ro
